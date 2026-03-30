@@ -8,7 +8,7 @@ name = "malt_operator"
 env = {
     OPENAI_API_KEY = "${NEBIUS_API_KEY}",
     OPENAI_API_BASE = "https://api.tokenfactory.nebius.com/v1/",
-    MODEL_NAME = "openai/meta-llama/Meta-Llama-3.1-8B-Instruct-fast"
+    MODEL_NAME = "openai/meta-llama/Meta-Llama-3.1-8B-Instruct"
 }
 
 [config]
