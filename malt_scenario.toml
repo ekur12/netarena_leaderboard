@@ -8,7 +8,7 @@ name = "malt_operator"
 env = {
     OPENAI_API_KEY = "${NEBIUS_API_KEY}",
     OPENAI_API_BASE = "https://api.tokenfactory.nebius.com/v1/",
-    MODEL_NAME = "openai/openai/gpt-oss-20b"
+    MODEL_NAME = "openai/Qwen/Qwen3-30B-A3B-Thinking-2507"
 }
 
 [config]
