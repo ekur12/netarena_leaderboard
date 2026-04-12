@@ -19,7 +19,7 @@ prompt_type = "zeroshot_base"
 complexity_level = ["level1", "level2", "level3"]
 
 # Number of queries to generate for each level of complexity
-num_queries = 4
+num_queries = 5
 
 # DO NOT MODIFY BELOW THIS LINE.
 output_dir = "dump"
