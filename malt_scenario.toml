@@ -13,13 +13,13 @@ env = {
 
 [config]
 # Prompt strategy for the agent. Options: "zeroshot_base", "zeroshot_cot", "fewshot_base", "fewshot_cot"
-prompt_type = "fewshot_base"
+prompt_type = "fewshot_cot"
 
 # Levels of complexity to generate queries for. Available options: "level1", "level2", "level3".
 complexity_level = ["level1", "level2", "level3"]
 
 # Number of queries to generate for each level of complexity
-num_queries = 5
+num_queries = 3
 
 # DO NOT MODIFY BELOW THIS LINE.
 output_dir = "dump"
