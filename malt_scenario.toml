@@ -8,18 +8,18 @@ name = "malt_operator"
 env = {
     OPENAI_API_KEY = "${NEBIUS_API_KEY}",
     OPENAI_API_BASE = "https://api.tokenfactory.nebius.com/v1/",
-    MODEL_NAME = "openai/deepseek-ai/DeepSeek-V3.2"
+    MODEL_NAME = "openai/moonshotai/Kimi-K2-Thinking"
 }
 
 [config]
 # Prompt strategy for the agent. Options: "zeroshot_base", "zeroshot_cot", "fewshot_base", "fewshot_cot"
-prompt_type = "fewshot_cot"
+prompt_type = "zeroshot_base"
 
 # Levels of complexity to generate queries for. Available options: "level1", "level2", "level3".
 complexity_level = ["level1", "level2", "level3"]
 
 # Number of queries to generate for each level of complexity
-num_queries = 5
+num_queries = 3
 
 # DO NOT MODIFY BELOW THIS LINE.
 output_dir = "dump"
