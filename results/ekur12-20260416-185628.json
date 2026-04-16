@@ -1,0 +1,12 @@
+{
+  "participants": {
+    "malt_operator": "019ba44f-9d1f-7ff3-8fbe-35c4ecfa40b2"
+  },
+  "results": [
+    {
+      "avg_correctness": 0,
+      "avg_safety": 0,
+      "avg_latency_s": 0
+    }
+  ]
+}
